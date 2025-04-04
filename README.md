@@ -1,3 +1,5 @@
+# WebPortfolio
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,7 +62,7 @@
             <button class="download-btn">
                 <a href="Documents/Muhoho Kariuki Resume.docx" class="btn active">Download CV</a></button>
         </div>
-        
+
     </div>
     <div class="about">
         <h1>About Me</h1>
@@ -96,6 +98,7 @@
         <h3>App Development</h3>
         <p>As an app developer, I blend creative vision with technical proficiency to create functional, engaging, and user-friendly applications. Leveraging my deep expertise in programming languages such as Swift for iOS and Kotlin for Android, as well as my skills in UI/UX design, I construct apps that are both visually appealing and intuitive to use. I am meticulous about implementing secure, efficient, and scalable code, ensuring robust performance across various devices and networks. My proficiency in backend technologies and APIs enables seamless integration with various services, enhancing the overall user experience. I am committed to lifelong learning, keeping abreast of the latest trends in app development and user behavior to deliver apps that are not only innovative but also meet the evolving needs of users in today's digital age.</p>
     </div>
+
 </div>
 
 <div class="workbox">
@@ -120,6 +123,5 @@
       </script>
    </div>
 
-   
 </body>
 </html></html>
