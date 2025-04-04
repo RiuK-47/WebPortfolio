@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+   <div class="container">
+    <div class="profile-card">
+        <div class="profile-pic">
+            <img src="Images/pexels-photo-577585.webp" alt="user avatar" width="300px" height="300px">
+        </div>
+
+        <div class="profile-details">
+            <div class="intro">
+                <h2>Steve Kariuki</h2>
+                <h4>Hi I'm a <span class="input">Junior Software Engineer</span></h4>
+                <div class="social">
+                    <a href="https://www.facebook.com/share/1ETbHUib2W/?mibextid=wwXIfr"><i class="fab fa-facebook" style="color:var(--blue)"></i></a>
+                    <a href="https://x.com/karis_karitho?s=21"><i class="fab fa-x-twitter" style="color:var(--skyblue)"></i></a>
+                    <a href="https://github.com/RiuK-47"><i class="fab fa-github" style="color:var(--dark-pink)"></i></a>
+                    <a href="https://www.linkedin.com/in/steve-kariuki-090968160?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin" style="color:var(--light-blue)"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-info">
+                <div class="row">
+                    <div class="icon">
+                        <i class="fa fa-phone" style="color:var(--dark-magenta)"></i>
+                    </div>
+                    <div class="content">
+                        <span>Phone</span>
+                        <h5>+254 704-452-885</h5>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="icon">
+                        <i class="fa fa-envelope-open" style="color:var(--light-green)"></i>
+                    </div>
+                    <div class="content">
+                        <span>Email</span>
+                        <h5>muhoho.skariuki@gmail.com</h5>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="icon">
+                        <i class="fa fa-map-marker" style="color:var(--light-purple)"></i>
+                    </div>
+                    <div class="content">
+                        <span>Location</span>
+                        <h5>Nairobi, Kenya</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="download-btn">
+                <a href="Documents/Muhoho Kariuki Resume.docx" class="btn active">Download CV</a></button>
+        </div>
+        
+    </div>
+    <div class="about">
+        <h1>About Me</h1>
+        <p>I am a tech enthusiast with a robust background in web design, data analysis, app development, and API creation. My passion for user experience drives me to create visually stunning and functional websites, intuitive apps, and insightful data analyses. I am skilled in HTML5, CSS3, JavaScript, Python, and Java, and I constantly update my knowledge to stay ahead of the latest trends.</p>
+
+        <p>I thrive on collaboration and excel in translating complex technical concepts into practical, user-friendly solutions. My commitment to quality and security ensures that my work is reliable and efficient. Whether designing, analyzing, or developing, I bring a unique blend of creativity and technical expertise to every project, always aiming to exceed expectations.</p>
+        <h2>What I do <!DOCTYPE html></h2>
+        <div class="work">
+            <div class="workbox">
+                <div class="icon">
+                <img src="Images/web.svg" alt="">
+            </div>
+            <div class="desc">
+                <h3>Web Designer</h3>
+                <p>As a web designer, I blend technical expertise in HTML5, CSS3, JavaScript, and React with a keen eye for design principles to craft websites that are both visually appealing and user-friendly. My designs prioritize intuitive navigation and high engagement, leveraging my skills in color, typography, and layout design to create compelling web experiences. I continually refine my work by analyzing user feedback and analytics, and my commitment to staying updated with the latest trends ensures my designs remain contemporary, innovative, and competitive in the ever-evolving digital landscape.</p>
+            </div>
+        </div>
+
+        <div class="workbox">
+            <div class="icon">
+            <img src="Images/ui.svg" alt="">
+        </div>
+        <div class="desc">
+            <h3>Data Analyst</h3>
+            <p>As a data analyst, I am adept at transforming complex data sets into actionable insights, driving informed decision-making and strategic planning. Equipped with a strong foundation in statistical analysis and proficient in tools like Python, SQL, and Tableau, I ensure data integrity and accuracy, facilitating the identification of patterns and trends. My analytical mindset and attention to detail allow me to strategize and execute robust data collection and reporting processes. I am also committed to continuous learning, staying up to date with the latest in data analytics techniques and technologies. This ensures that I contribute valuable insights that are not only insightful but also relevant to the ever-evolving business landscape.</p>
+        </div>
+    </div>
+    <div class="workbox">
+        <div class="icon">
+        <img src="Images/app.svg" alt="">
+    </div>
+    <div class="desc">
+        <h3>App Development</h3>
+        <p>As an app developer, I blend creative vision with technical proficiency to create functional, engaging, and user-friendly applications. Leveraging my deep expertise in programming languages such as Swift for iOS and Kotlin for Android, as well as my skills in UI/UX design, I construct apps that are both visually appealing and intuitive to use. I am meticulous about implementing secure, efficient, and scalable code, ensuring robust performance across various devices and networks. My proficiency in backend technologies and APIs enables seamless integration with various services, enhancing the overall user experience. I am committed to lifelong learning, keeping abreast of the latest trends in app development and user behavior to deliver apps that are not only innovative but also meet the evolving needs of users in today's digital age.</p>
+    </div>
+</div>
+
+<div class="workbox">
+    <div class="icon">
+    <img src="Images/api.svg" alt="">
+</div>
+<div class="desc">
+    <h3>API Development</h3>
+    <p>As an API developer, I specialize in creating robust, secure, and scalable application programming interfaces that facilitate seamless communication between software applications. With a strong foundation in RESTful architecture and expertise in languages such as Java, Node.js, and Python, I design APIs that are intuitive to use, ensuring developers can easily integrate them into their projects. My focus on security includes implementing industry best practices for authentication and authorization, thereby safeguarding sensitive data. I am committed to adhering to the highest standards of quality and performance, ensuring that my APIs are reliable and efficient. My proactive approach to learning keeps me updated with the latest API development trends and techniques, guaranteeing that I deliver cutting-edge solutions that meet and exceed the expectations of the modern tech ecosystem.</p>
+</div>
+</div>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+      var typed = new Typed(".input", {
+        strings: ["Software Engineer", "Web Developer", "Junior Data Analyst"],
+        typedSpeed: 70,
+        backSpeed: 55,
+        loop: true,
+      });
+      </script>
+   </div>
+
+   
+</body>
+</html></html>
